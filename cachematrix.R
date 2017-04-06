@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## For calculation of the inverse of a matrix.
+## The function is suppossed to calculate the inverse of a matrix. We input the matrix into the function to get back the inverse of it.
 
-## Write a short comment describing this function
+## Here I am using solve function to calculate the inverse. Then for testing my code I have selected a matrix and tried to find the inverse of it. 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
